@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Lenovo IdeaPad",
+    "image": "https://placehold.co/64x64/3498DB/FFFFFF.png",
+    "price": 1899.99,
+    "description": "Laptop ideal para estudios, trabajo y programación."
+  },
+  {
+    "id": 2,
+    "title": "Mouse Logitech",
+    "image": "https://placehold.co/64x64/E74C3C/FFFFFF.png",
+    "price": 89.90,
+    "description": "Mouse inalámbrico ergonómico para uso diario."
+  },
+  {
+    "id": 3,
+    "title": "Teclado Mecánico RGB",
+    "image": "https://placehold.co/64x64/9B59B6/FFFFFF.png",
+    "price": 159.90,
+    "description": "Teclado mecánico con iluminación RGB y conexión USB."
+  },
+  {
+    "id": 4,
+    "title": "Monitor Samsung 24",
+    "image": "https://placehold.co/64x64/2ECC71/FFFFFF.png",
+    "price": 699.90,
+    "description": "Monitor Full HD de 24 pulgadas para trabajo y entretenimiento."
+  },
+  {
+    "id": 5,
+    "title": "Audífonos Bluetooth",
+    "image": "https://placehold.co/64x64/F39C12/FFFFFF.png",
+    "price": 129.90,
+    "description": "Audífonos inalámbricos con buena calidad de sonido y batería."
+  },
+  {
+    "id": 6,
+    "title": "Disco SSD 1TB",
+    "image": "https://placehold.co/64x64/1ABC9C/FFFFFF.png",
+    "price": 349.90,
+    "description": "Unidad SSD de 1 TB para almacenamiento rápido y confiable."
+  },
+  {
+    "id": 7,
+    "title": "Webcam HD",
+    "image": "https://placehold.co/64x64/34495E/FFFFFF.png",
+    "price": 119.90,
+    "description": "Cámara web HD para videollamadas, clases y reuniones virtuales."
+  },
+  {
+    "id": 8,
+    "title": "Memoria USB 128GB",
+    "image": "https://placehold.co/64x64/E91E63/FFFFFF.png",
+    "price": 59.90,
+    "description": "Memoria USB de 128 GB para transportar tus archivos."
+  },
+  {
+    "id": 9,
+    "title": "Tablet Android",
+    "image": "https://placehold.co/64x64/795548/FFFFFF.png",
+    "price": 799.90,
+    "description": "Tablet Android ligera para estudiar, navegar y consumir contenido."
+  },
+  {
+    "id": 10,
+    "title": "Parlante Bluetooth",
+    "image": "https://placehold.co/64x64/607D8B/FFFFFF.png",
+    "price": 179.90,
+    "description": "Parlante portátil Bluetooth con sonido potente y batería recargable."
+  }
+]
