@@ -1,0 +1,29 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 35px;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none; /*pERMITE QUE EL TEXTO NO SE SELCCIONE*/
+    flex: 1 1; /*Proporción del ancho si hay 2 elementos, el ancho se distirbuye entre 2 de forma equitativa*/
+}
+
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+    transition: 0.3s;
+}
+.operador{
+    background-color: #5a01a7;
+    transition: 0.3s;
+}
+
+.operador:hover{
+  background-color: #ff6600;
+  transition: 0.3s;
+}
