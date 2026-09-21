@@ -1,9 +1,10 @@
 import Item from './Item'
+import { toUpper } from '../helpers/toUpper';
 
-function ItemList({ productos }) {
+function ItemList({ productos, categoria}) {
     return (
         <div>
-            <h2>Productos</h2>
+            <h2>{toUpper(categoria)}</h2>
             <div className="productos">
                 {
                     productos.map((producto) => [

@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { pedirItemporID } from "../helpers/pedirDatos";
 import ItemDetail from './ItemDetail'
+import { useParams } from "react-router-dom";
 
-function ItemDetailContainer({ id }) {
+function ItemDetailContainer() {
 
     const [item, setItem] = useState(null);
+    const id = Number(useParams().id);
+
 
     useEffect(() => {
         pedirItemporID(id)
