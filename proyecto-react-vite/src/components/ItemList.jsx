@@ -7,11 +7,13 @@ function ItemList({ productos, categoria}) {
             <h2>{toUpper(categoria)}</h2>
             <div className="productos">
                 {
-                    productos.map((producto) => [
-                        <Item
-                            key={producto.id}
-                            producto={producto} />
-                    ])
+                    productos.map((producto) => {
+                        return (
+                            <Item
+                                key={producto.id}
+                                producto={producto} />
+                        );
+                    })
                 }
             </div>
         </div>
